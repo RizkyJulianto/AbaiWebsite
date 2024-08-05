@@ -1,0 +1,261 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+   
+    
+    .online_box {
+        width: 100%;
+        display: block;
+    }
+
+    .online_box_left {
+        margin: 10px 0px;
+    }
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner_bg_main {
+        background-size: 100% 100%;
+    }
+    
+    .input_bt {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_bg_main {
+        background-size: 100% 100%;
+    }
+    
+    .input_bt {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner_bg_main {
+        background-size: 100% 100%;
+    }
+    .header_section_top {
+        display: none;
+    }
+    .containt_main {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .toggle_icon {
+        cursor: pointer;
+        order: 2;
+    }
+    .main {
+        margin: 0px 0px 0px 0px;
+    }
+    .main {
+        margin: 0px 0px;
+    }
+    .input-group {
+        width: auto;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .header_box {
+        order: 1;
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .dropdown {
+        display: none;
+    }
+    .login_menu li {
+        float: right;
+        font-size: 14px;
+    }
+    .nav-link {
+        padding: .4rem 0px;
+        color: #fff;
+    }
+    .lang_box {
+        background-color: transparent;
+    }
+    .banner_taital {
+        font-size: 40px;
+    }
+
+    
+    
+    .box_main {
+        padding: 20px 10px;
+    }
+    
+    .input_bt {
+        width: 100%;
+    }
+    .mail_bt {
+        width: 70%;
+    }
+    .footer_menu li {
+        float: none;
+        padding: 10px 10px 0px 10px;
+    }
+    .location_main {
+        padding: 30px 0px 30px 0px;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner_bg_main {
+        background-size: 100% 100%;
+    }
+
+    
+    .header_section_top {
+        display: none;
+    }
+    .containt_main {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .toggle_icon {
+        cursor: pointer;
+        order: 2;
+    }
+    .main {
+        margin: 0px 0px 0px 0px;
+    }
+    .main {
+        margin: 0px 0px;
+    }
+    .input-group {
+        width: auto;
+        margin-right: 0px;
+    }
+    .header_box {
+        order: 1;
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+    .dropdown {
+        display: none;
+
+    }
+    .login_menu  {
+        float: left;
+        font-size: 20px;
+       
+    }
+    .nav-link {
+        padding: .4rem 0px;
+        color: #fff;
+    }
+    .lang_box {
+        background-color: transparent;
+    }
+    .banner_taital {
+        font-size: 24px;
+    }
+    
+    .input_bt {
+        width: 100%;
+    }
+    .mail_bt {
+        width: 70%;
+    }
+    .footer_menu li {
+        float: none;
+        padding: 10px 10px 0px 10px;
+    }
+    .location_main {
+        padding: 30px 0px 30px 0px;
+    }
+    #container_bankpartners {
+        width: 100%;
+      }
+    
+      #container_bankpartners {
+        width: 100%;
+        margin: 0 auto;
+      }
+      
+      #container_bankpartners .bank-card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      
+      #container_bankpartners .selectors-bank {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+      }
+      
+      #container_bankpartners .select-bank {
+       width: 100%; 
+       max-width: 700px;
+      }
+      
+      #container_bankpartners .bank-card {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 333px;
+        height: auto;
+        margin: 140px auto;
+        border-radius: 0;
+      }
+  
+      #container_bankpartners .img-card img{
+          border-radius: 0;
+      }
+      
+      #container_bankpartners .img-card {
+        height: auto;	
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      
+      #container_bankpartners .detail-card {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 8px;
+      }
+      
+      #container_bankpartners .row-items-card {
+        flex-direction: column;
+      }
+      
+      #container_bankpartners .item-card {
+        width: 100%;
+      }
+}
